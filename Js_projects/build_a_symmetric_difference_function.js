@@ -3,7 +3,7 @@
 // so your condition if(B.indexOf(element)) will return true even when element is not found.
 // You're using += to combine arrays, which converts them to strings.
 // intead use    var result3 = result1.concat(result2);
-
+// The filter() method creates a new array filled with elements that pass a test provided by a function.
 function diffArray(A , B){
    var result1 =   A.filter(check);
     function  check(element ){
